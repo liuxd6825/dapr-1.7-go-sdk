@@ -6,7 +6,8 @@ import (
 	_ "google.golang.org/grpc"
 )
 
-// LoadEvents liuxd: DDD event storage get aggregate root by id
+// LoadEvents
+// DDD event storage get aggregate root by id
 func (c *GRPCClient) LoadEvents(ctx context.Context, req *pb.LoadEventRequest) (*pb.LoadEventResponse, error) {
 	return c.protoClient.LoadEvents(ctx, req)
 }
