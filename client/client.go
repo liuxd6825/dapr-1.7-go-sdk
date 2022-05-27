@@ -173,11 +173,14 @@ type Client interface {
 	// SaveSnapshot 保存事件快照
 	SaveSnapshot(context.Context, *pb.SaveSnapshotRequest) (*pb.SaveSnapshotResponse, error)
 
-	//ExistAggregate 检查聚合根是否存在
-	ExistAggregate(context.Context, *pb.ExistAggregateRequest) (*pb.ExistAggregateResponse, error)
-
 	// ApplyEvent 应用事件到聚合根上
 	ApplyEvent(context.Context, *pb.ApplyEventRequest) (*pb.ApplyEventResponse, error)
+
+	// CreateEvent 创建聚合
+	CreateEvent(context.Context, *pb.CreateEventRequest) (*pb.CreateEventResponse, error)
+
+	// DeleteEvent 创建聚合
+	DeleteEvent(context.Context, *pb.DeleteEventRequest) (*pb.DeleteEventResponse, error)
 
 	// WriteEventLog 写事件日志
 	WriteEventLog(context.Context, *pb.WriteEventLogRequest) (*pb.WriteEventLogResponse, error)
