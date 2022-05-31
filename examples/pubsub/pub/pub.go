@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"os"
 
-	dapr "github.com/dapr/go-sdk/client"
+	dapr "github.com/liuxd6825/go-sdk/client"
 )
 
 var (

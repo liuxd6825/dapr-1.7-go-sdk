@@ -3,8 +3,8 @@ package main
 import (
 	"context"
 	"fmt"
-	daprTracing "github.com/dapr/dapr/pkg/diagnostics"
-	dapr "github.com/dapr/go-sdk/client"
+	daprTracing "github.com/liuxd6825/dapr/pkg/diagnostics"
+	dapr "github.com/liuxd6825/go-sdk/client"
 	"github.com/go-redis/redis/v8"
 	"google.golang.org/grpc/metadata"
 	"strconv"

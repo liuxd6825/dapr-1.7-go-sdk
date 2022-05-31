@@ -19,9 +19,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/dapr/go-sdk/actor/api"
-	actorErr "github.com/dapr/go-sdk/actor/error"
-	"github.com/dapr/go-sdk/actor/mock"
+	"github.com/liuxd6825/go-sdk/actor/api"
+	actorErr "github.com/liuxd6825/go-sdk/actor/error"
+	"github.com/liuxd6825/go-sdk/actor/mock"
 )
 
 func TestNewDefaultActorManager(t *testing.T) {

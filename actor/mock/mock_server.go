@@ -10,7 +10,7 @@ import (
 
 	gomock "github.com/golang/mock/gomock"
 
-	actor "github.com/dapr/go-sdk/actor"
+	actor "github.com/liuxd6825/go-sdk/actor"
 )
 
 // MockServer is a mock of Server interface.

@@ -7,7 +7,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	pb "github.com/dapr/dapr/pkg/proto/runtime/v1"
+	pb "github.com/liuxd6825/dapr/pkg/proto/runtime/v1"
 )
 
 type ConfigurationItem struct {

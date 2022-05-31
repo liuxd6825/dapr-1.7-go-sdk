@@ -22,10 +22,10 @@ import (
 
 	"github.com/gorilla/mux"
 
-	actorErr "github.com/dapr/go-sdk/actor/error"
-	"github.com/dapr/go-sdk/actor/runtime"
-	"github.com/dapr/go-sdk/service/common"
-	"github.com/dapr/go-sdk/service/internal"
+	actorErr "github.com/liuxd6825/go-sdk/actor/error"
+	"github.com/liuxd6825/go-sdk/actor/runtime"
+	"github.com/liuxd6825/go-sdk/service/common"
+	"github.com/liuxd6825/go-sdk/service/internal"
 )
 
 const (

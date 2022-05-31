@@ -11,7 +11,7 @@ no_list: true
 Start by importing Dapr Go service/http package:
 
 ```go
-daprd "github.com/dapr/go-sdk/service/http"
+daprd "github.com/liuxd6825/go-sdk/service/http"
 ```
 
 ### Creating and Starting Service

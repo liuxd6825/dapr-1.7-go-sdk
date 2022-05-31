@@ -13,7 +13,7 @@ no_list: true
 Start by importing Dapr Go service/grpc package:
 
 ```go
-daprd "github.com/dapr/go-sdk/service/grpc"
+daprd "github.com/liuxd6825/go-sdk/service/grpc"
 ```
 
 ### Creating and Starting Service

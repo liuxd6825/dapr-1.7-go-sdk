@@ -19,7 +19,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/dapr/go-sdk/service/common"
+	"github.com/liuxd6825/go-sdk/service/common"
 )
 
 // AddServiceInvocationHandler appends provided service invocation handler with its route to the service.

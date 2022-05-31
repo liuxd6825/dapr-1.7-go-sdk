@@ -23,9 +23,9 @@ import (
 	"github.com/golang/protobuf/ptypes/empty"
 	"github.com/pkg/errors"
 
-	pb "github.com/dapr/dapr/pkg/proto/runtime/v1"
-	"github.com/dapr/go-sdk/service/common"
-	"github.com/dapr/go-sdk/service/internal"
+	pb "github.com/liuxd6825/dapr/pkg/proto/runtime/v1"
+	"github.com/liuxd6825/go-sdk/service/common"
+	"github.com/liuxd6825/go-sdk/service/internal"
 )
 
 // AddTopicEventHandler appends provided event handler with topic name to the service.

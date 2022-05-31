@@ -21,11 +21,11 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"github.com/dapr/go-sdk/actor"
-	"github.com/dapr/go-sdk/actor/config"
-	"github.com/dapr/go-sdk/actor/runtime"
-	"github.com/dapr/go-sdk/service/common"
-	"github.com/dapr/go-sdk/service/internal"
+	"github.com/liuxd6825/go-sdk/actor"
+	"github.com/liuxd6825/go-sdk/actor/config"
+	"github.com/liuxd6825/go-sdk/actor/runtime"
+	"github.com/liuxd6825/go-sdk/service/common"
+	"github.com/liuxd6825/go-sdk/service/internal"
 )
 
 // NewService creates new Service.

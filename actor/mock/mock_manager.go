@@ -9,8 +9,8 @@ import (
 
 	gomock "github.com/golang/mock/gomock"
 
-	actor "github.com/dapr/go-sdk/actor"
-	error "github.com/dapr/go-sdk/actor/error"
+	actor "github.com/liuxd6825/go-sdk/actor"
+	error "github.com/liuxd6825/go-sdk/actor/error"
 )
 
 // MockActorManager is a mock of ActorManager interface.

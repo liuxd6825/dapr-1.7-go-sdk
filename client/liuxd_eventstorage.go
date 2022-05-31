@@ -2,7 +2,7 @@ package client
 
 import (
 	"context"
-	pb "github.com/dapr/dapr/pkg/proto/runtime/v1"
+	pb "github.com/liuxd6825/dapr/pkg/proto/runtime/v1"
 	_ "google.golang.org/grpc"
 )
 

@@ -14,7 +14,7 @@ Dapr Go client includes two packages: `client` (for invoking public Dapr APIs), 
 Import Dapr Go `client` package:
 
 ```go
-import "github.com/dapr/go-sdk/client"
+import "github.com/liuxd6825/go-sdk/client"
 ```
 
 #### Quick start
@@ -23,7 +23,7 @@ import "github.com/dapr/go-sdk/client"
 package main
 
 import (
-    dapr "github.com/dapr/go-sdk/client"
+    dapr "github.com/liuxd6825/go-sdk/client"
 )
 
 func main() {

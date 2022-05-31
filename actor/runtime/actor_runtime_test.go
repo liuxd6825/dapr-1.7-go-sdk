@@ -16,8 +16,8 @@ package runtime
 import (
 	"testing"
 
-	actorErr "github.com/dapr/go-sdk/actor/error"
-	actorMock "github.com/dapr/go-sdk/actor/mock"
+	actorErr "github.com/liuxd6825/go-sdk/actor/error"
+	actorMock "github.com/liuxd6825/go-sdk/actor/mock"
 
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"

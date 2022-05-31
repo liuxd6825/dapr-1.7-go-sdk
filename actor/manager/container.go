@@ -18,11 +18,11 @@ import (
 	"log"
 	"reflect"
 
-	"github.com/dapr/go-sdk/actor"
-	"github.com/dapr/go-sdk/actor/codec"
-	actorErr "github.com/dapr/go-sdk/actor/error"
-	"github.com/dapr/go-sdk/actor/state"
-	dapr "github.com/dapr/go-sdk/client"
+	"github.com/liuxd6825/go-sdk/actor"
+	"github.com/liuxd6825/go-sdk/actor/codec"
+	actorErr "github.com/liuxd6825/go-sdk/actor/error"
+	"github.com/liuxd6825/go-sdk/actor/state"
+	dapr "github.com/liuxd6825/go-sdk/client"
 )
 
 type ActorContainer interface {

@@ -18,7 +18,7 @@ The Dapr client package allows you to interact with other Dapr applications from
 
 ## Import the client package 
 ```go
-import "github.com/dapr/go-sdk/client"
+import "github.com/liuxd6825/go-sdk/client"
 ```
 
 ## Building blocks

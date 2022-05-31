@@ -1,9 +1,9 @@
-module github.com/dapr/go-sdk
+module github.com/liuxd6825/go-sdk
 
 go 1.17
 
 require (
-	github.com/dapr/dapr v1.7.1
+	github.com/liuxd6825/dapr v1.7.1
 	github.com/golang/protobuf v1.5.2
 	github.com/pkg/errors v0.9.1
 	github.com/stretchr/testify v1.7.0
@@ -60,4 +60,4 @@ require (
 	sigs.k8s.io/structured-merge-diff/v4 v4.2.0 // indirect
 )
 
-replace github.com/dapr/dapr => ../dapr
+replace github.com/liuxd6825/dapr => ../dapr
