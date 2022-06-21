@@ -60,4 +60,5 @@ require (
 	sigs.k8s.io/structured-merge-diff/v4 v4.2.0 // indirect
 )
 
-// replace github.com/liuxd6825/dapr => ../dapr
+//replace github.com/liuxd6825/dapr v1.7.1-1.0-alpha => ../dapr
+replace github.com/liuxd6825/dapr v1.7.1-1.0-alpha => gitee.com/liuxd6825/dapr v1.7.1-1.0-alpha
