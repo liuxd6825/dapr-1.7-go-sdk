@@ -199,6 +199,8 @@ type Client interface {
 
 	// GetAppLogById 按id获取应用日志
 	GetAppLogById(context.Context, *pb.GetAppLogByIdRequest) (*pb.GetAppLogByIdResponse, error)
+
+	GetRelations(ctx context.Context, request *pb.GetRelationsRequest) (*pb.GetRelationsResponse, error)
 }
 
 // NewClient instantiates Dapr client using DAPR_GRPC_PORT environment variable as port.

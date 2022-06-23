@@ -1,6 +1,6 @@
 module github.com/liuxd6825/go-sdk
 
-go 1.17
+go 1.18
 
 require (
 	github.com/golang/protobuf v1.5.2
@@ -61,4 +61,4 @@ require (
 )
 
 //replace github.com/liuxd6825/dapr v1.7.1-1.0-alpha => ../dapr
-replace github.com/liuxd6825/dapr v1.7.1-1.0-alpha => gitee.com/liuxd6825/dapr v1.7.1-1.0-alpha
+replace github.com/liuxd6825/dapr  => ../dapr

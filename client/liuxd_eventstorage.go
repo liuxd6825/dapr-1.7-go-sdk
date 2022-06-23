@@ -70,3 +70,7 @@ func (c *GRPCClient) CreateEvent(ctx context.Context, request *pb.CreateEventReq
 func (c *GRPCClient) DeleteEvent(ctx context.Context, request *pb.DeleteEventRequest) (*pb.DeleteEventResponse, error) {
 	return c.protoClient.DeleteEvent(ctx, request)
 }
+
+func (c *GRPCClient) GetRelations(ctx context.Context, request *pb.GetRelationsRequest) (*pb.GetRelationsResponse, error) {
+	return c.protoClient.GetRelations(ctx, request)
+}
